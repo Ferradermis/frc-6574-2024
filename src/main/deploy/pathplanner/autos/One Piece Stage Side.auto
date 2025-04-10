@@ -1,12 +1,5 @@
 {
-  "version": 1.0,
-  "startingPose": {
-    "position": {
-      "x": 0.9626945359454185,
-      "y": 4.461828723942754
-    },
-    "rotation": -51.84277341263089
-  },
+  "version": "2025.0",
   "command": {
     "type": "sequential",
     "data": {
@@ -39,6 +32,7 @@
       ]
     }
   },
+  "resetOdom": true,
   "folder": "Pathplanner Autos",
   "choreoAuto": false
 }

@@ -96,7 +96,7 @@ public class Elevator extends SubsystemBase {
   public void periodic() {
 
     elevatorReverseLimit.enableLimitSwitch(true);
-    SmartDashboard.putNumber("Elevator encoder", leftMotor.getEncoder().getPosition());
+    //SmartDashboard.putNumber("Elevator encoder", leftMotor.getEncoder().getPosition());
   }
     // This method will be called once per scheduler run
 }
